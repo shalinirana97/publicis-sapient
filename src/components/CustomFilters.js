@@ -28,7 +28,7 @@ export default function CustomFilters(props) {
         activeLaunch,
         activeLand
     } = props
-    
+
     return (
         <Grid item xs={12} sm={4} lg={3} className="p-2">
             <Paper className='cust-filters'>
@@ -45,7 +45,7 @@ export default function CustomFilters(props) {
                                 years.map((year, key) => {
                                     return <Grid item xs={6} key={key} className='years-items'>
                                         <div className='years-div'>
-                                            <Button variant="contained" fullWidth className={activeYear == year ? 'activeBtnBg' : ''} size="medium" onClick={() => changeFilter('launch_year', year, 'activeYear')}>{year}</Button>
+                                            <Button variant="contained" fullWidth className={activeYear === year ? 'activeBtnBg' : ''} size="medium" onClick={() => changeFilter('launch_year', year, 'activeYear')}>{year}</Button>
                                         </div>
                                     </Grid>
                                 })
