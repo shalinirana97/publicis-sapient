@@ -1,0 +1,62 @@
+.main-wrap {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.card-wrap {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    .media {
+        height: 200px;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .MuiCardContent-root {
+        padding: 16px 0 0 0;
+    }
+}
+.landing-page-wrap {
+    padding: 10px;
+    .custom-col-width {
+        .MuiGrid-item {
+            padding: 10px;
+        }
+    }
+    .cust-filters {
+        padding: 10px;
+        .MuiDivider-middle {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        .MuiButton-contained {
+            background-color: #c5e1a5;
+            &:hover {
+                background-color: #aed581;
+            }
+        }
+        .activeBtnBg {
+            background-color: #8bc34a;
+        }
+        button {
+            width: 100px;
+            .MuiButton-label {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.years-items {
+    display: flex;
+    .years-div {
+        padding-top: 10px;
+        margin: auto;
+    }
+}
