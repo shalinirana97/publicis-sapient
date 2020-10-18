@@ -34,9 +34,9 @@ Below is the detail of variables used:
 
 ### Setup instructions
 
-Run git clone [enter repo link] command. 
-Go to project directory.
-Run npm install command.
+Run git clone [enter repo link] command. <br />
+Go to project directory.<br />
+Run npm install command.<br />
 Run npm start (http://localhost:3000) to view it in the browser.
 
 ### Lighthouse performance screenshot
